@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+    <title>Pi Maskap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="{{ asset('landingpage/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="{{ asset('landingpage/assets/css/fontawesome.css') }}">
+    <link rel="stylesheet" href="{{ asset('landingpage/assets/css/templatemo-digimedia-v3.css') }}">
+    <link rel="stylesheet" href="{{ asset('landingpage/assets/css/animated.css') }}">
+    <link rel="stylesheet" href="{{ asset('landingpage/assets/css/owl.css') }}">
+</head>
+
+<body>
+
+<!-- ***** Header Area Start ***** -->
+<header class="header-area header-sticky wow slideInDown" data-wow-duration="0.75s" data-wow-delay="0s">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <nav class="main-nav" style="display: flex; align-items: center; justify-content: space-between;">
+                    <!-- ***** Logo Start ***** -->
+                    <div class="logo" style="display: flex; align-items: center;">
+                        <span style="color: rgb(163, 20, 163); font-size: 24px; font-weight: bold; margin-right: 10px;">Pi</span><span style="color: rgb(83, 83, 212); font-size: 24px; font-weight: bold;">Maskap</span>
+                    </div>
+                    <!-- ***** Logo End ***** -->
+                    <!-- ***** Menu Start ***** -->
+                    <ul class="nav" style="display: flex; list-style-type: none; margin: 0;">
+                        <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
+                        <li class="scroll-to-section"><a href="#about">About</a></li>
+                        <li class="scroll-to-section"><a href="#services">Fitur</a></li>
+                        <li class="scroll-to-section"><a href="#blog">Airlens</a></li>
+                        <li class="scroll-to-section"><a href="#contact">Contact</a></li>
+                        <li class="scroll-to-section">
+                            <div class="border-first-button"><a href="{{ route('login') }}">Mulai Sekarang</a></div>
+                        </li>
+                    </ul>
+                    <a class='menu-trigger'>
+                        <span>Menu</span>
+                    </a>
+                    <!-- ***** Menu End ***** -->
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- ***** Header Area End ***** -->
+
+<div class="main-banner wow fadeIn" id="top" data-wow-duration="1s" data-wow-delay="0.5s">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="row">
+                    <div class="col-lg-6 align-self-center">
+                        <div class="left-content show-up header-text wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <h6>Selamat Datang</h6>
+                                    <h2>Sistem Pendukung Keputusan Pemilihan Maskapai Penerbangan</h2>
+                                    <p>Bantu pilih perjalanan terbang kamu lebih nyaman</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="right-image wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s" style="margin-top: -20px;">
+                            <img src="{{ asset('landingpage/img/header.png') }}" alt="Placeholder Image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="about" class="about section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="about-left-image wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
+                            <img src="{{ asset('landingpage/assets/images/about-dec-v3.png') }}" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 align-self-center wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
+                        <div class="about-right-content">
+                            <div class="section-heading">
+                                <h6>Tentang Kami</h6>
+                                <h4>Apa itu <em>Pi Maskap</em></h4>
+                                <div class="line-dec"></div>
+                            </div>
+                            <p>Pi Maskap merupakan sistem pendukung keputusan yang dapat digunakan oleh pengguna untuk menentukan pilihan maskapai penerbangan terbaik menggunakan metode SAW (Simple Additive Weighting).</p>
+                            <p>SAW atau Simple Additive Weighting merupakan salah satu metode dalam pengambilan keputusan multikriteria. Metode ini bekerja dengan cara menormalisasi bobot dari setiap kriteria yang ada, sehingga setiap alternatif dapat dibandingkan berdasarkan total nilai yang dihitung dari penjumlahan bobot yang sudah dinormalisasi.</p>
+                            <p>Tujuan dari sistem ini adalah untuk membantu pengguna dalam memilih maskapai penerbangan yang paling sesuai dengan kebutuhan dan preferensi mereka berdasarkan berbagai kriteria seperti harga tiket, kualitas pelayanan, ketepatan waktu, dan fasilitas tambahan yang disediakan oleh maskapai.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="services" class="services section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section-heading wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
+                    <h6>Fitur yang Tersedia</h6>
+                    <h4>Apa yang <em>Disediakan</em> oleh Sistem Kami</h4>
+                    <div class="line-dec"></div>
+                </div>
+            </div>
+            <div class="col-lg-12">
+                <div class="naccs">
+                    <div class="grid">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="menu">
+                                    <div class="first-thumb active">
+                                        <div class="thumb">
+                                            <span class="icon"><img src="{{ asset('landingpage/assets/images/service-icon-01.png') }}" alt=""></span>
+                                            Kriteria
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="thumb">
+                                            <span class="icon"><img src="{{ asset('landingpage/assets/images/service-icon-02.png') }}" alt=""></span>
+                                            Alternatif
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="thumb">
+                                            <span class="icon"><img src="{{ asset('landingpage/assets/images/service-icon-03.png') }}" alt=""></span>
+                                            SPK
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="thumb">
+                                            <span class="icon"><img src="{{ asset('landingpage/assets/images/service-icon-04.png') }}" alt=""></span>
+                                            Normalisasi
+                                        </div>
+                                    </div>
+                                    <div class="last-thumb">
+                                        <div class="thumb">
+                                            <span class="icon"><img src="{{ asset('landingpage/assets/images/service-icon-01.png') }}" alt=""></span>
+                                            Peringkat
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="blog" class="blog">
+                            <div class="container">
+                              <div class="row">
+                                <div class="col-lg-4 offset-lg-4 wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.3s">
+                                  <div class="section-heading">
+                                    <h6>Airlens</h6>
+                                    <h4>Lihat <em>Pilihan</em> Maskapai</h4>
+                                    <div class="line-dec"></div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="col-lg-4 col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
+                                  <div class="blog-post">
+                                    <div class="thumb" style="margin-bottom: 15px;">
+                                      <a href="#"><img src="{{ asset('landingpage/img/1.jpg') }}" alt="" style="width: 100%; height: auto;"></a>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
+                                  <div class="blog-post">
+                                    <div class="thumb" style="margin-bottom: 15px;">
+                                      <a href="#"><img src="{{ asset('landingpage/img/2.jpg') }}" alt="" style="width: 100%; height: auto;"></a>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
+                                  <div class="blog-post">
+                                    <div class="thumb" style="margin-bottom: 15px;">
+                                      <a href="#"><img src="{{ asset('landingpage/img/3.jpg') }}" alt="" style="width: 100%; height: auto;"></a>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="col-lg-4 col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
+                                  <div class="blog-post">
+                                    <div class="thumb" style="margin-bottom: 15px;">
+                                      <a href="#"><img src="{{ asset('landingpage/img/4.jpg') }}" alt="" style="width: 100%; height: auto;"></a>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
+                                  <div class="blog-post">
+                                    <div class="thumb" style="margin-bottom: 15px;">
+                                      <a href="#"><img src="{{ asset('landingpage/img/5.jpg') }}" alt="" style="width: 100%; height: auto;"></a>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
+                                  <div class="blog-post">
+                                    <div class="thumb" style="margin-bottom: 15px;">
+                                      <a href="#"><img src="{{ asset('landingpage/img/6.jpg') }}" alt="" style="width: 100%; height: auto;"></a>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          
+                          <div id="contact" class="contact-us section">
+                            <div class="container">
+                              <div class="row">
+                                <div class="col-lg-6 offset-lg-3">
+                                  <div class="section-heading wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
+                                    <h6>Contact</h6>
+                                    <h4>Hubungi Kami <em>Sekarang</em></h4>
+                                    <div class="line-dec"></div>
+                                  </div>
+                                </div>
+                                <div class="col-lg-12 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.25s">
+                                  <form id="contact" action="" method="post">
+                                    <div class="row">
+                                      <div class="col-lg-12">
+                                        <div class="contact-dec">
+                                          <img src="{{ asset('landingpage/assets/images/contact-dec-v3.png') }}" alt="">
+                                        </div>
+                                      </div>
+                                      <div class="col-lg-5">
+                                        <div id="map">
+                                          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8611.986728467074!2d109.11058511558082!3d-6.869307933226663!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6fb9e2805c1c1b%3A0xe3e61e1ae59106ff!2sPoliteknik%20Harapan%20Bersama!5e0!3m2!1sid!2sid!4v1720307690364!5m2!1sid!2sid" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                        </div>
+                                      </div>
+                                      <div class="col-lg-7">
+                                        <div class="fill-form">
+                                          <div class="row">
+                                            <div class="col-lg-6">
+                                              <fieldset>
+                                                <input type="name" name="name" id="name" placeholder="Name" autocomplete="on" required>
+                                              </fieldset>
+                                              <fieldset>
+                                                <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your Email" required="">
+                                              </fieldset>
+                                              <fieldset>
+                                                <input type="subject" name="subject" id="subject" placeholder="Subject" autocomplete="on">
+                                              </fieldset>
+                                            </div>
+                                            <div class="col-lg-6">
+                                              <fieldset>
+                                                <textarea name="message" type="text" class="form-control" id="message" placeholder="Message" required=""></textarea>  
+                                              </fieldset>
+                                            </div>
+                                            <div class="col-lg-12">
+                                              <fieldset>
+                                                <button type="submit" id="form-submit" class="main-button">Send Message Now</button>
+                                              </fieldset>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </form>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          
+                          <footer style="background-color: #061019; padding: 20px 0;">
+                            <div class="container">
+                              <div class="row">
+                                <div class="col-lg-12 text-center">
+                                  <div class="social">
+                                    <a href="https://github.com/aurapitaloka" target="_blank" style="margin: 0 10px;">
+                                      <i class="fab fa-github" style="font-size: 30px; color: white;"></i>
+                                    </a>
+                                    <a href="https://www.linkedin.com/in/aura-pitaloka-a00563247/" target="_blank" style="margin: 0 10px;">
+                                      <i class="fab fa-linkedin" style="font-size: 30px; color: white;"></i>
+                                    </a>
+                                    <a href="https://www.facebook.com/profile.php?id=100008598341803" target="_blank" style="margin: 0 10px;">
+                                      <i class="fab fa-facebook" style="font-size: 30px; color: white;"></i>
+                                    </a>
+                                    <a href="https://www.youtube.com/channel/UC2eEobEM_bx_Bumzdc9Fy6A" target="_blank" style="margin: 0 10px;">
+                                      <i class="fab fa-youtube" style="font-size: 30px; color: white;"></i>
+                                    </a>
+                                    <a href="https://www.instagram.com/aurapitaloka18/" target="_blank" style="margin: 0 10px;">
+                                      <i class="fab fa-instagram" style="font-size: 30px; color: white;"></i>
+                                    </a>
+                                  </div>
+                                  <p style="margin-top: 15px; color: white;">Copyright © 2024 Aura Pitaloka - 22090026</p>
+                                </div>
+                              </div>
+                            </div>
+                          </footer>
+                          
+                        <!-- Scripts -->
+                        <!--Form scripst-->
+                        
+                        <!-- Bootstrap core JavaScript -->
+                        <script src="{{ asset('landingpage/vendor/jquery/jquery.min.js') }}"></script>
+                        <script src="{{ asset('landingpage/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+
+                        <!-- Additional Scripts -->
+                        <script src="{{ asset('landingpage/assets/js/custom.js') }}"></script>
+                        <script src="{{ asset('landingpage/assets/js/owl.js') }}"></script>
+                        <script src="{{ asset('landingpage/assets/js/slick.js') }}"></script>
+                        <script src="{{ asset('landingpage/assets/js/accordions.js') }}"></script>
+
+                        <script src="https://kit.fontawesome.com/df7b37349c.js" crossorigin="anonymous"></script>
+                        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+                        <script>
+                            AOS.init();
+                        </script>
+                        <script>
+                            // Optional: Define a function to reset the elements that match a specific class
+                            function resetElements() {
+                                var elements = document.querySelectorAll('.reset-button');
+                                elements.forEach(function (element) {
+                                    element.addEventListener('click', function () {
+                                        element.classList.toggle('active');
+                                    });
+                                });
+                            }
+                            // Initialize the reset function
+                            resetElements();
+                        </script>
+</body>
+</html>
